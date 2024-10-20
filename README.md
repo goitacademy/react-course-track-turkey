@@ -1,17 +1,17 @@
-# Заняття 5 - Форми в React
+# Ders 5 - React'te Formlar
 
-- Форми
-  - Форма як окремий компонент (`UserForm`)
-  - Сабміт форми (`onSubmit`)
-  - Пропс сабміту
-  - Об'єкт подіі не передаємо у пропс сабміту
-- Неконтрольована форма з `e.target.elements`
-  - Очищення форми після сабміту з `e.target.reset()`
-- Хук `useId`
-- Контрольовані елементи
-  - Атрибути `value` та `onChange` та передача їх значень пропсами
-  - Текстове поле (`TextInput`)
-  - Елемент select (`LangSwitcher`)
-- Контрольована форма (`OrderForm`)
-  - Обробка сабміту форми
-  - Очищення форми після сабміту
+- Formlar
+  - Form ayrı bir bileşen olarak (`UserForm`)
+  - Formun gönderimi (`onSubmit`)
+  - Gönderim prop'u
+  - Olay nesnesini gönderim prop'una iletmiyoruz
+- Kontrolsüz form `e.target.elements` ile
+  - Gönderimden sonra formu `e.target.reset()` ile temizleme
+- `useId` kancası
+- Kontrol edilen elemanlar
+  - `value` ve `onChange` nitelikleri ve bu değerlerin prop'lar olarak iletilmesi
+  - Metin girişi (`TextInput`)
+  - Seçim elemanı (`LangSwitcher`)
+- Kontrol edilen form (`OrderForm`)
+  - Form gönderiminin işlenmesi
+  - Gönderimden sonra formu temizleme
