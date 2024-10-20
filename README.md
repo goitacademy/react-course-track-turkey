@@ -1,40 +1,38 @@
-# Заняття 15 - Логін та реєстрація користувача
+# Ders 15 - Kullanıcı Girişi ve Kaydı
 
-Base URL бекенду: https://task-manager-api.goit.global/
+Backend Temel URL'si: https://task-manager-api.goit.global/
 
-- Розібрати структуру сторінок та компонентів
-- Розібрати стан authSlice у `src/redux/auth/slice`
-- Розібрати селектори у `src/redux/auth/selectors`
-- Розібрати шаблони операцій у `src/redux/auth/operations`
-- Налаштувати компоненти в середині `AppBar` для відображення JSX відносно
-  `isLoggedIn`
+- Sayfa ve bileşenlerin yapısını incelemek
+- `src/redux/auth/slice` içindeki authSlice durumunu incelemek
+- `src/redux/auth/selectors` içindeki seçicileri incelemek
+- `src/redux/auth/operations` içindeki işlem şablonlarını incelemek
+- `isLoggedIn` durumuna göre JSX görüntülemek için `AppBar` içindeki bileşenleri ayarlamak
 
-## Реєстрація
+## Kayıt
 
-- Написати операцію `register`
-- Використати в компоненті `RegisterForm`
-- Обробити результат у `authSlice`
-- Поверхнево розібрати концепцію access token, далі буде
+- `register` işlemini yazmak
+- `RegisterForm` bileşeninde kullanmak
+- Sonucu `authSlice` içinde işlemek
+- Access token kavramını yüzeysel olarak incelemek, daha sonra detaylandırılacak
 
-## Логін
+## Giriş
 
-- Написати операцію `logIn`
-- Використати в компоненті `LoginForm`
-- Обробити результат у `authSlice`
-- Звернути увагу на токен у відповіді
+- `logIn` işlemini yazmak
+- `LoginForm` bileşeninde kullanmak
+- Sonucu `authSlice` içinde işlemek
+- Cevaptaki token'a dikkat etmek
 
-## JWT та хедери HTTP-запиту
+## JWT ve HTTP İstek Başlıkları
 
-- Розібрати концепцію приватних даних користувача
-- Розглянути як по токену бекенд розрізняє користувачів
-- Приватна коллекція даних
-- Як додавати токен до кожного запросу після логіну або реєстрації
-- Створити утиліту `setAuthHeader`
+- Kullanıcı özel verileri kavramını incelemek
+- Token ile backend'in kullanıcıları nasıl ayırt ettiğini gözden geçirmek
+- Özel veri koleksiyonu
+- Giriş veya kayıt sonrası her isteğe token eklemek
+- `setAuthHeader` yardımcı fonksiyonunu oluşturmak
 
-## Логаут
+## Çıkış
 
-- Написати операцію `logOut`
-- Використати в компоненті `UserMenu`
-- Обробити результат логауту у `authSlice` щоб інвалідувати дані при логауті
-- Обробити результат логауту у `tasksSlice` щоб інвалідувати дані при логауті
-  
+- `logOut` işlemini yazmak
+- `UserMenu` bileşeninde kullanmak
+- Çıkış sonucunu `authSlice` içinde işleyerek çıkışta verileri geçersiz kılmak
+- Çıkış sonucunu `tasksSlice` içinde işleyerek çıkışta verileri geçersiz kılmak
