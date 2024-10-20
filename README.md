@@ -1,19 +1,19 @@
-# Заняття 3 - Події та стан компонента
+# Ders 3 - Bileşenin Olayları ve Durumu
 
-- Обробка подій
-  - Іменування атрибутів обробників `on*`
-  - Додавання обробника події
-  - Посилання на функцію
-  - Анонімний колбек
-  - Об'єкт події
-- [Стан компонента](https://raw.githubusercontent.com/goitacademy/react-course-track/03-state/assets/state.png)
-  - Реактивність
-  - Хук `useState`
-  - Обмеження хуків
-  - Асинхронність оновлення стану
-  - Ізоляція стану
-  - [Підняття стану](https://raw.githubusercontent.com/goitacademy/react-course-track/03-state/assets/lifting-state.png)
-    - Компоненти `Counter` та `CountDisplay`
-  - Декілька станів (зробити ефект toggle з `setIsVisible(!isVisible)`)
-  - Оновлення об'єктів
-- [Воркшоп Article Reader](https://raw.githubusercontent.com/goitacademy/react-course-track/03-state/assets/reader.png)
+- Olayların İşlenmesi
+  - `on*` işleyicisi isimlendirme
+  - Olay işleyici ekleme
+  - Fonksiyona referans
+  - Anonim geri çağırma
+  - Olay nesnesi
+- [Bileşenin Durumu](https://raw.githubusercontent.com/goitacademy/react-course-track/03-state/assets/state.png)
+  - Reaktivite
+  - `useState` kancası
+  - Kancaların kısıtlamaları
+  - Durum güncellemesinin asenkronluğu
+  - Durumun izole edilmesi
+  - [Durum Yükseltme](https://raw.githubusercontent.com/goitacademy/react-course-track/03-state/assets/lifting-state.png)
+    - `Counter` ve `CountDisplay` bileşenleri
+  - Birden fazla durum ( `setIsVisible(!isVisible)` ile toggle etkisi yapma)
+  - Nesnelerin güncellenmesi
+- [Article Reader Atölyesi](https://raw.githubusercontent.com/goitacademy/react-course-track/03-state/assets/reader.png)
