@@ -1,19 +1,19 @@
-# Заняття 6 - Форми з Formik
+# Ders 6 - Formik ile Formlar
 
-- Бібліотека [Formik](https://formik.org/)
-- Контейнер форми `Formik` та `Form`
-  - Пропс `initialValues`
-  - Пропс `onSubmit`
-- Поля форми `Field`
-  - Атрибут `name`
-  - Початкове значення елементів
-- Відправка форми
-  - Параметри `values` та `actions` у `onSubmit`
-- Стилізація компонентів Formik
-- Типи полів через пропс `as`
-- Валідація з [`Yup`](https://github.com/jquense/yup)
-  - Схема валідаціі
-  - Можливі аргументи функції-валідатора
-  - Пропс `validationSchema`
-- Компонент `ErrorMessage`
-  - Пропс `component`
+- [Formik](https://formik.org/) kütüphanesi
+- Form konteyneri `Formik` ve `Form`
+  - `initialValues` prop'u
+  - `onSubmit` prop'u
+- Form alanları `Field`
+  - `name` niteliği
+  - Elemanların başlangıç değeri
+- Form gönderimi
+  - `onSubmit` içindeki `values` ve `actions` parametreleri
+- Formik bileşenlerinin stilizasyonu
+- `as` prop'u ile alan türleri
+- [`Yup`](https://github.com/jquense/yup) ile doğrulama
+  - Doğrulama şeması
+  - Doğrulayıcı fonksiyonun alabileceği argümanlar
+  - `validationSchema` prop'u
+- `ErrorMessage` bileşeni
+  - `component` prop'u
