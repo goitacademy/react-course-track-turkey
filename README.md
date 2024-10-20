@@ -1,40 +1,40 @@
-# Заняття 11 - Бібліотека Redux
+# Ders 11 - Redux Kütüphanesi
 
-## Управління станом
+## Durum Yönetimi
 
-- Глобальний стан та потік даних
-- Встановлення бібліотек
+- Küresel durum ve veri akışı
+- Kütüphanelerin kurulumu
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [React Redux](https://react-redux.js.org/)
 
-## Стор (store)
+## Store
 
-- Функція `configureStore`
-- Розбір Redux Devtools
-- Підписка на стор хуком `useSelector`
-- Функції-селектори
+- `configureStore` fonksiyonu
+- Redux Devtools'ın incelenmesi
+- `useSelector` kancası ile store'a abone olma
+- Seçici fonksiyonlar
 
-## Екшени (actions)
+## Eylemler (actions)
 
-- Фабрики екшенів
-- Функція `createAction`
-- Відправлення екшенів з `useDispatch`
+- Eylem fabrikaları
+- `createAction` fonksiyonu
+- `useDispatch` ile eylem gönderme
 
-## Редюсери (reducers)
+## Reducer'lar (reducers)
 
-- Сігнатура редюсера
-- Кореневий редюсер
-- Чому за замовчуванням `return state`
-- Обробка екшенів
+- Reducer imzası
+- Kök reducer
+- Neden varsayılan olarak `return state`
+- Eylemlerin işlenmesi
 
-## Практика
+## Pratik
 
-- Усі налаштування Redux роби у папці `src/redux`
-- Створи стор у файлі `store.js`
+- Tüm Redux ayarlarını `src/redux` klasöründe yapın
+- `store.js` dosyasında bir store oluşturun
 
-![UI завдання](https://raw.githubusercontent.com/goitacademy/react-course-track/11-redux/assets/task.gif)
+![UI görevi](https://raw.githubusercontent.com/goitacademy/react-course-track/11-redux/assets/task.gif)
 
-Так має виглядати початковий стан:
+Başlangıç durumu şöyle görünmelidir:
 
 ```js
 {
