@@ -1,16 +1,16 @@
-# Заняття 16 - Оновлення користувача та редіректи
+# Ders 16 - Kullanıcı Güncellemesi ve Yönlendirmeler
 
-## Оновлення користувача
+## Kullanıcı Güncellemesi
 
-- Додати збереження токену у localStorage за допомогою Redux Persist
-- Додати операцію `refreshUser`
-- Використати операцію `refreshUser` при монтуванні `App`
-- Додати селектор стану `isRefreshing`
-- Додати у слайс `auth` стан `isRefreshing`
-- Використати стан `isRefreshing` у `App`
+- Redux Persist kullanarak token'in localStorage'da saklanmasını ekleyin
+- `refreshUser` işlemini ekleyin
+- `App` montajında `refreshUser` işlemini kullanın
+- `isRefreshing` durumunu seçici olarak ekleyin
+- `auth` diliminde `isRefreshing` durumunu ekleyin
+- `App` içinde `isRefreshing` durumunu kullanın
 
-## Редіректи
+## Yönlendirmeler
 
-- Розглянути концепцію редіректів на прикладі процесу логіна
-- Створити компоненти `PrivateRoute` та `RestrictedRoute`
-- Використати компоненти для обгортання маршрутів
+- Giriş süreci örneği üzerinden yönlendirme kavramını ele alın
+- `PrivateRoute` ve `RestrictedRoute` bileşenlerini oluşturun
+- Rotaları sarmak için bileşenleri kullanın
