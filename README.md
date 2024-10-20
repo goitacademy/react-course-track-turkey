@@ -1,13 +1,13 @@
-# Заняття 13 - HTTP-запити з Redux Toolkit
+# Derse 13 - Redux Toolkit ile HTTP İstekleri
 
-- Асинхронні операції
-- Форма стану слайса: loading, error, data
-- Оголошення операції `fetchTasks` через `createAsyncThunk`
-  - URL запиту: `https://62584f320c918296a49543e7.mockapi.io/tasks`
-  - Діспатч операції у компоненті при монтуванні
-  - Екшени операціії: pending, fulfilled, rejected
-  - Обробка результату операцій у слайсі (`extraReducers`)
-  - Обробка запиту, що завершився з помилкою (`thunkAPI.rejectWithValue`)
-- Операціі `addTask` та `deleteTask`
-  - Діспатч операцій у компонентах
-  - Обробка результату операцій у слайсі
+- Asenkron işlemler
+- Dilim durum formu: yükleniyor, hata, veriler
+- `createAsyncThunk` ile `fetchTasks` işleminin tanımlanması
+  - İstek URL'si: `https://62584f320c918296a49543e7.mockapi.io/tasks`
+  - Bileşen montajında işlemin dağıtılması
+  - İşlem eylemleri: pending, fulfilled, rejected
+  - İşlem sonuçlarının dilimde işlenmesi (`extraReducers`)
+  - Hata ile sonuçlanan isteğin işlenmesi (`thunkAPI.rejectWithValue`)
+- `addTask` ve `deleteTask` işlemleri
+  - Bileşenlerde işlemlerin dağıtılması
+  - İşlem sonuçlarının dilimde işlenmesi
