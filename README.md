@@ -1,22 +1,22 @@
-# Заняття 2 - Стилізація
+# Ders 2 - Stilizasyon
 
-- Трішки про вбудовані стилі
-  - Проблема маштабування, підтримки ітд
-- Трішки про ванільний CSS
-  - Файл стилів
-  - Імпорт стилів
-  - Проблема глобальної області видимості
-- Структура папок та файлів
-  - Папка компонента
-  - Файл компонента
-  - Файл стилів
-  - Іменування
-- CSS-модулі
-  - Використання
-  - Композиція класів з бібліотекою [clsx](https://www.npmjs.com/package/clsx)
-- Нормалізація стилів з [modern-normalize](https://www.npmjs.com/package/modern-normalize)
-- Імпорт локальних зображень (зображення у папці `assets`)
-- Бібліотека [React Icons](https://react-icons.github.io/react-icons/)
-- Імпорт кастомних SVG іконок
-  - Налаштування `vite-plugin-svgr` у `vite.config.js`
-  - Імпорт (дефолтний) SVG файлу як компонента (зображення у папці `assets`)
+- Yerleşik stiller hakkında biraz
+  - Ölçeklenebilirlik, destek vb. sorunları
+- Vanilla CSS hakkında biraz
+  - Stil dosyası
+  - Stil ithalatı
+  - Küresel görünürlük sorunu
+- Klasör ve dosya yapısı
+  - Bileşen klasörü
+  - Bileşen dosyası
+  - Stil dosyası
+  - İsimlendirme
+- CSS modülleri
+  - Kullanım
+  - [clsx](https://www.npmjs.com/package/clsx) kütüphanesi ile sınıf bileşimi
+- [modern-normalize](https://www.npmjs.com/package/modern-normalize) ile stillerin normalleştirilmesi
+- Yerel görüntülerin ithalatı (assets klasöründeki görüntüler)
+- [React Icons](https://react-icons.github.io/react-icons/) kütüphanesi
+- Özel SVG simgalarının ithalatı
+  - `vite.config.js` dosyasında `vite-plugin-svgr` ayarları
+  - SVG dosyasının bileşen olarak (`assets` klasöründeki görüntüler) varsayılan olarak ithalatı
