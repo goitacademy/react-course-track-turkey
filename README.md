@@ -1,4 +1,4 @@
-# Ders 9 - Yönlendirme
+# Ders 9 - Navigasyon
 
 - SPA'da yönlendirme nedir
   - İstemci Tarafı İşleme
@@ -18,7 +18,7 @@
   - İç içe yönlendirmeler oluşturmak ve iç içe bileşenleri görüntülemek için kullanıyoruz.
 - Vercel’e Dağıtım (bu konunun materyallerde hatırlatılması)
 
-## Ödeme Uygulaması
+## Payment Application
 
 Ödemeleri görüntülemek için çok sayfalı bir uygulama oluşturuyoruz.
 
@@ -28,7 +28,7 @@ Arka uç için `/payments` koleksiyonunun temel URL adresi:
 https://65c23f3af7e6ea59682af8d1.mockapi.io
 ```
 
-### Yönlendirme
+### Navigasyon
 
 - `/` - anasayfa
 - `/payments` - ödeme listesi sayfası
@@ -37,7 +37,7 @@ https://65c23f3af7e6ea59682af8d1.mockapi.io
 - `/payments/:paymentId/receipt` - fiş bilgileri için iç içe yönlendirme
 - `*` - hata sayfası bileşeni
 
-### Bileşenler
+### Components
 
 - `Navigasyon`
   - `/` ve `/payments` sayfalarına yönlendiren navigasyon bileşeni
