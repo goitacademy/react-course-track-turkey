@@ -1,17 +1,17 @@
-# Заняття 7 - HTTP-запити
+# Ders 7 - HTTP İstekleri
 
-- HTTP-запити з Axios
+- Axios ile HTTP istekleri
   - https://hn.algolia.com/api (http://hn.algolia.com/api/v1/search)
-  - Запит при монтуванні компонента
-  - Оголошення функціі у еффекті
-  - Обробка даних запиту
-  - Відображення даних
-  - Поділ відповідальності
-  - Індикатор завантаження
-  - Обробка помилок
-  - Пошук через форму
-- Пагінація
-  - Параметри page та hitsPerPage
-  - Кнопка Load more
-  - Зберігання page та topic у стані
-- Бібліотека [React Hot Toast](https://react-hot-toast.com/)
+  - Bileşen montajında istek
+  - Etkide fonksiyon tanımlama
+  - İstek verilerinin işlenmesi
+  - Verilerin görüntülenmesi
+  - Sorumlulukların paylaşılması
+  - Yükleme göstergesi
+  - Hata işleme
+  - Form aracılığıyla arama
+- Sayfalama
+  - page ve hitsPerPage parametreleri
+  - Daha fazla yükle butonu
+  - page ve topic'in durumda saklanması
+- [React Hot Toast](https://react-hot-toast.com/) kütüphanesi
