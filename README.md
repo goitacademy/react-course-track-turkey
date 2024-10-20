@@ -1,12 +1,12 @@
-# Заняття 14 - Мемоізація селекторів
+# Ders 14 - Seçicilerin Memosu
 
-- Функції-селектори
-  - Зберігати у файлі слайсу
-  - Найменування `select*`
-- Прості селектори (повертають частину стану)
-- Складові селектори (повертають результат обчислень)
-  - Список завдань у `TaskList`
-  - Створюємо селектор `selectVisibleTasks`
-- Що таке мемоізація (кешування обчислень)
-- Як працює мемоізація у Redux Toolkit
-- Оптимізація з `createSelector`
+- Seçici fonksiyonlar
+  - Dilim dosyasında saklama
+  - İsimlendirme `select*`
+- Basit seçiciler (durumun bir kısmını döndürür)
+- Bileşen seçiciler (hesaplamaların sonucunu döndürür)
+  - `TaskList` içindeki görevler listesi
+  - `selectVisibleTasks` seçicisini oluşturma
+- Memoizasyon nedir (hesaplamaların önbelleğe alınması)
+- Redux Toolkit'te memoizasyon nasıl çalışır
+- `createSelector` ile optimizasyon
