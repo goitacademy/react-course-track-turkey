@@ -1,15 +1,15 @@
-# Заняття 8 - Мемоізація, рефи, контекст
+# Ders 8 - Memoizasyon, referanslar, bağlam
 
-- Мемоізація обчислень з хуком `useMemo`
-- Рефи з хуком `useRef`
-  - Створення
-  - Життєвий цикл рефа
-  - Відсутність реактивності
-- Контекст
-  - Створення контекста з `createContext`
-  - Контекст вибору мови (`langContext`)
-  - Компонент `Provider`
-  - Хук `useContext` у `LangMessage` та `LangSwitcher`
-  - Кастомний компонент провайдера `LangProvider`
-  - Стан та зміна стану у компоненті провайдера `LangProvider`
-  - Передача стану та сеттера через контекст
+- `useMemo` kancası ile hesaplamaların memoizasyonu
+- `useRef` kancası ile referanslar
+  - Oluşturma
+  - Referansın yaşam döngüsü
+  - Reaktifliğin olmaması
+- Bağlam
+  - `createContext` ile bağlam oluşturma
+  - Dil seçimi bağlamı (`langContext`)
+  - `Provider` bileşeni
+  - `LangMessage` ve `LangSwitcher` içinde `useContext` kancası
+  - Özel sağlayıcı bileşeni `LangProvider`
+  - `LangProvider` bileşeninde durum ve durum değişikliği
+  - Durum ve setter'ın bağlam aracılığıyla iletilmesi
