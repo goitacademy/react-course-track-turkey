@@ -1,21 +1,21 @@
-# Заняття 12 - Бібліотека Redux Toolkit
+# Ders 12 - Redux Toolkit Kütüphanesi
 
-## Слайси стану
+## Durum Dilimleri
 
-- Розділення коду кореневого редюсера на редюсери слайсів
-- Створення файлів слайсів `balanceSlice.js` та `localeSlice.js`
+- Ana reducer'ın kodunu dilim reducer'larına ayırma
+- `balanceSlice.js` ve `localeSlice.js` dilim dosyalarının oluşturulması
 
-## Функція `createSlice`
+## `createSlice` Fonksiyonu
 
-- Створення слайса
-- Властивості `name` та `initialState`
-- Властивість `reducers` та case-редюсери
-- Експорт фабрик екшенів
-- Експорт кореневого редюсера
-- Використання `Immer` для оновлення стану у case-редюсерах слайсів
+- Dilim oluşturma
+- `name` ve `initialState` özellikleri
+- `reducers` özelliği ve case-reducer'lar
+- Eylem fabrikalarının dışa aktarımı
+- Ana reducer'ın dışa aktarımı
+- Dilimlerin case-reducer'larında durumu güncellemek için `Immer` kullanımı
 
-## Бібліотека [Redux Persist](https://www.npmjs.com/package/redux-persist)
+## [Redux Persist](https://www.npmjs.com/package/redux-persist) Kütüphanesi
 
-- Створення конфігурації
-- Створення `persistor`
-- Додавання `PersistGate`
+- Konfigürasyon oluşturma
+- `persistor` oluşturma
+- `PersistGate` ekleme
