@@ -1,53 +1,53 @@
-# Заняття 9 - Маршрутизація
+# Ders 9 - Yönlendirme
 
-- Що таке маршрутизація у SPA
-  - Client Side Rendering
-  - Один `index.html`
-  - Бібліотека React Router
-- Компонент `BrowserRouter`
-  - Дізнаємося про використання для налаштування маршрутів у додатку.
-- Компоненти `Link` та `NavLink`
-  - Використовуємо їх для створення посилань, які навігують користувача між сторінками додатка.
-- Компоненти `Route` та `Routes`
-  - Оглядаємо їх використання для визначення шляхів і відповідних компонентів, які мають бути відображені при збігу URL.
-- Сторінка помилки навігації
-  - Розглядаємо, як налаштувати сторінку для відображення, коли введений URL не збігається з жодним з визначених маршрутів.
-- URL-параметри з `useParams`
-  - Дізнаємося, як отримувати значення параметрів URL у компонентах за допомогою хука
-- Вкладені маршрути та `Outlet`
-  - Використовуємо їх для створення вкладених маршрутів та відображення вкладених компонентів.
-- Деплой на Vercel (нагадати що це у матеріалах)
+- SPA'da yönlendirme nedir
+  - İstemci Tarafı İşleme
+  - Tek `index.html`
+  - React Router Kütüphanesi
+- `BrowserRouter` Bileşeni
+  - Uygulamadaki yönlendirmeleri ayarlamak için kullanımını öğreniyoruz.
+- `Link` ve `NavLink` Bileşenleri
+  - Kullanıcıyı uygulamanın sayfaları arasında gezinmesini sağlamak için bağlantılar oluşturmak amacıyla kullanıyoruz.
+- `Route` ve `Routes` Bileşenleri
+  - URL eşleştiğinde hangi yolların ve ilgili bileşenlerin görüntüleneceğini tanımlamak için kullanımını inceliyoruz.
+- Navigasyon Hata Sayfası
+  - Girilen URL'nin tanımlı hiçbir rotayla eşleşmediğinde görüntülenecek sayfayı nasıl ayarlayacağımızı ele alıyoruz.
+- `useParams` ile URL parametreleri
+  - Bileşenlerde URL parametrelerinin değerlerini almak için kütüphaneyi nasıl kullanacağımızı öğreniyoruz.
+- İç İçe Yönlendirmeler ve `Outlet`
+  - İç içe yönlendirmeler oluşturmak ve iç içe bileşenleri görüntülemek için kullanıyoruz.
+- Vercel’e Dağıtım (bu konunun materyallerde hatırlatılması)
 
-## Payments App
+## Ödeme Uygulaması
 
-Створюємо багатосторінковий додаток для перегляду платежів.
+Ödemeleri görüntülemek için çok sayfalı bir uygulama oluşturuyoruz.
 
-Базова URL адреса для бекенду з колекцією `/payments`:
+Arka uç için `/payments` koleksiyonunun temel URL adresi:
 
 ```text
 https://65c23f3af7e6ea59682af8d1.mockapi.io
 ```
 
-### Routing
+### Yönlendirme
 
-- `/` - домашня сторінка
-- `/payments` - сторінка списку платежів
-- `/payments/:paymentId` - сторінка деталей платежу
-- `/payments/:paymentId/bank` - вкладений маршрут інформації про банк
-- `/payments/:paymentId/receipt` - вкладений маршрут інформації про чек
-- `*` - компонент сторінки помилки
+- `/` - anasayfa
+- `/payments` - ödeme listesi sayfası
+- `/payments/:paymentId` - ödeme detayları sayfası
+- `/payments/:paymentId/bank` - banka bilgileri için iç içe yönlendirme
+- `/payments/:paymentId/receipt` - fiş bilgileri için iç içe yönlendirme
+- `*` - hata sayfası bileşeni
 
-### Components
+### Bileşenler
 
-- `Navigation`
-  - Компонент навігації до сторінок `/` та `/payments`
-  - Рендериться у `App`
+- `Navigasyon`
+  - `/` ve `/payments` sayfalarına yönlendiren navigasyon bileşeni
+  - `App` içinde render edilir
 - `PaymentsPage`
-  - Виконує GET-запит за списком усіх пейментів
-  - Рендерить `PaymentList`
+  - Tüm ödemelerin listesini almak için GET isteği yapar
+  - `PaymentList` bileşenini render eder
 - `PaymentDetailsPage`
-  - Виконує GET-запит за одним пейментом по його `id`, який отримуємо за домопогою `useParams`
-  - Рендерить компонент `PaymentInfo` з інформацією про пеймент
-  - Рендерить вкладену навігацію до маршрутів `/bank` та `/receipt`
-  - Використовує `Outlet` для вкладених маршрутів `/bank` та `/receipt`
-- `NotFoundPage` - сторінка з лінком на `/`
+  - `id`'sine göre bir ödemeyi almak için GET isteği yapar, bu `useParams` yardımıyla elde edilir
+  - Ödeme bilgileri ile `PaymentInfo` bileşenini render eder
+  - `/bank` ve `/receipt` rotalarına yönlendiren iç navigasyonu render eder
+  - `/bank` ve `/receipt` iç rotaları için `Outlet` kullanır
+- `NotFoundPage` - `/` bağlantısına sahip sayfa
