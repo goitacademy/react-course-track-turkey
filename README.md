@@ -1,1 +1,1 @@
-# Трек занять для інструкторів курсу React
+# React Kursu Eğitmenleri için Eğitim Takvimi
