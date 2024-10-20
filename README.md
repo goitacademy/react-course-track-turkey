@@ -1,16 +1,16 @@
-# Заняття 4 - Ефекти
+# Ders 4 - Efektler
 
-- Життєвий цикл компонента
-  - Монтування
-  - Оновлення
-  - Розмонтування
-- Хук `useEffect`
-  - Створення ефектів (`ClickTracker`)
-  - Етап оновлення (`ClickTracker`)
-  - Декілька ефектів
-  - Етап монтування та подвійне монтування у суворому режимі (`Sidebar`)
-  - Етап розмонтування та очищення еффекту (`Sidebar`)
-  - Етап монтування та розмонтування (`Timer`)
-- Робота з LocalStorage на прикладі `Article Reader`
-  - Запис через ефект
-  - Читання через `useState(callback)`
+- Bileşenin yaşam döngüsü
+  - Montaj
+  - Güncelleme
+  - Demontaj
+- `useEffect` kancası
+  - Efekt oluşturma (`ClickTracker`)
+  - Güncelleme aşaması (`ClickTracker`)
+  - Birden fazla efekt
+  - Montaj aşaması ve sıkı modda çift montaj (`Sidebar`)
+  - Demontaj aşaması ve efektin temizlenmesi (`Sidebar`)
+  - Montaj ve demontaj aşaması (`Timer`)
+- LocalStorage ile çalışma `Article Reader` örneğinde
+  - Efekt aracılığıyla yazma
+  - `useState(callback)` ile okuma
