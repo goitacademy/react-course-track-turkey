@@ -2,21 +2,21 @@
 
 - Yerleşik stiller hakkında biraz
   - Ölçeklenebilirlik, destek vb. sorunları
-- Vanilla CSS hakkında biraz
-  - Stil dosyası
-  - Stil ithalatı
-  - Küresel görünürlük sorunu
+- Vanilla CSS 
+  - Stil dosyalarının kullanımı
+  - Stil dosyalarının projeye dahil edilmesi
+  - Küresel stil görünürlüğü sorunu
 - Klasör ve dosya yapısı
-  - Bileşen klasörü
-  - Bileşen dosyası
-  - Stil dosyası
-  - İsimlendirme
+  - Bileşen klasör yapısı
+  - Bileşen dosyalarının düzenlenmesi
+  - Stil dosyalarının yapısı ve organizasyonu
+  - İsimlendirme kuralları
 - CSS modülleri
-  - Kullanım
+  - CSS modüllerinin kullanımı
   - [clsx](https://www.npmjs.com/package/clsx) kütüphanesi ile sınıf bileşimi
 - [modern-normalize](https://www.npmjs.com/package/modern-normalize) ile stillerin normalleştirilmesi
-- Yerel görüntülerin ithalatı (assets klasöründeki görüntüler)
+- Yerel görüntülerin içe aktarılması (assets klasöründeki görüntüler)
 - [React Icons](https://react-icons.github.io/react-icons/) kütüphanesi
-- Özel SVG simgalarının ithalatı
+- Özel SVG simgelerinin içe aktarılmas
   - `vite.config.js` dosyasında `vite-plugin-svgr` ayarları
-  - SVG dosyasının bileşen olarak (`assets` klasöründeki görüntüler) varsayılan olarak ithalatı
+  - SVG dosyalarının bileşen olarak içe aktarılması (assets klasöründeki SVG dosyaları)
