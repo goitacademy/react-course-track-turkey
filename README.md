@@ -1,17 +1,17 @@
 # Ders 5 - React'te Formlar
 
 - Formlar
-  - Form ayrı bir bileşen olarak (`UserForm`)
-  - Formun gönderimi (`onSubmit`)
-  - Gönderim prop'u
-  - Olay nesnesini gönderim prop'una iletmiyoruz
+  - Formun ayrı bir bileşen olarak tanımlanması (`UserForm`)
+  - Form gönderimi işlemi (`onSubmit`)
+  - Gönderim işlemi için kullanılan prop
+  - Olay nesnesini doğrudan gönderim prop'una iletmemek
 - Kontrolsüz form `e.target.elements` ile
-  - Gönderimden sonra formu `e.target.reset()` ile temizleme
-- `useId` kancası
+  - Form gönderiminden sonra `e.target.reset()` ile formun temizlenmesi
+- `useId` Hook'u
 - Kontrol edilen elemanlar
-  - `value` ve `onChange` nitelikleri ve bu değerlerin prop'lar olarak iletilmesi
+  - `value` ve `onChange` niteliklerinin kullanımı ve bu değerlerin prop'lar olarak iletilmesi
   - Metin girişi (`TextInput`)
   - Seçim elemanı (`LangSwitcher`)
 - Kontrol edilen form (`OrderForm`)
-  - Form gönderiminin işlenmesi
-  - Gönderimden sonra formu temizleme
+  - Form gönderim işleminin yönetimi
+  - Gönderimden sonra formun temizlenmesi
