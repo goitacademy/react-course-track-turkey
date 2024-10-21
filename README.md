@@ -2,18 +2,18 @@
 
 - SPA'da yönlendirme nedir
   - İstemci Tarafı İşleme
-  - Tek `index.html`
-  - React Router Kütüphanesi
+  - Tek `index.html` kullanımı
+  - React Router Kütüphanesi ile yönlendirme
 - `BrowserRouter` Bileşeni
   - Uygulamadaki yönlendirmeleri ayarlamak için kullanımını öğreniyoruz.
 - `Link` ve `NavLink` Bileşenleri
-  - Kullanıcıyı uygulamanın sayfaları arasında gezinmesini sağlamak için bağlantılar oluşturmak amacıyla kullanıyoruz.
+  - Kullanıcıların uygulamanın sayfaları arasında gezinmesini sağlamak için bağlantılar oluşturma.
 - `Route` ve `Routes` Bileşenleri
-  - URL eşleştiğinde hangi yolların ve ilgili bileşenlerin görüntüleneceğini tanımlamak için kullanımını inceliyoruz.
+  - URL eşleştiğinde hangi bileşenlerin görüntüleneceğini tanımlamak için kullanımını inceliyoruz.
 - Navigasyon Hata Sayfası
-  - Girilen URL'nin tanımlı hiçbir rotayla eşleşmediğinde görüntülenecek sayfayı nasıl ayarlayacağımızı ele alıyoruz.
+  - Girilen URL'nin tanımlı hiçbir rotayla eşleşmediğinde görüntülenecek sayfayı ayarlama.
 - `useParams` ile URL parametreleri
-  - Bileşenlerde URL parametrelerinin değerlerini almak için kütüphaneyi nasıl kullanacağımızı öğreniyoruz.
+  - Bileşenlerde URL parametrelerinin değerlerini almak için kütüphanenin nasıl kullanılacağını öğreniyoruz.
 - İç İçe Yönlendirmeler ve `Outlet`
   - İç içe yönlendirmeler oluşturmak ve iç içe bileşenleri görüntülemek için kullanıyoruz.
 - Vercel’e Dağıtım (bu konunun materyallerde hatırlatılması)
