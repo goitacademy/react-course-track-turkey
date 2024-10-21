@@ -1,15 +1,16 @@
 # Ders 8 - Memoizasyon, referanslar, bağlam
 
-- `useMemo` kancası ile hesaplamaların memoizasyonu
-- `useRef` kancası ile referanslar
+- `useMemo` Hook'u ile hesaplamaların memoizasyonu
+- `useRef` Hook'u ile referansların oluşturulması
   - Oluşturma
   - Referansın yaşam döngüsü
   - Reaktifliğin olmaması
 - Bağlam
   - `createContext` ile bağlam oluşturma
   - Dil seçimi bağlamı (`langContext`)
-  - `Provider` bileşeni
-  - `LangMessage` ve `LangSwitcher` içinde `useContext` kancası
+  - `Provider` bileşeni kullanımı
+  - `LangMessage` ve `LangSwitcher` bileşenlerinde `useContext` Hook'u
   - Özel sağlayıcı bileşeni `LangProvider`
-  - `LangProvider` bileşeninde durum ve durum değişikliği
-  - Durum ve setter'ın bağlam aracılığıyla iletilmesi
+  - `LangProvider` bileşeninde durum yönetimi ve durum değişikliği
+  - Durum ve setter fonksiyonunun bağlam aracılığıyla iletilmesi
+
