@@ -2,18 +2,18 @@
 
 - [Formik](https://formik.org/) kütüphanesi
 - Form konteyneri `Formik` ve `Form`
-  - `initialValues` prop'u
-  - `onSubmit` prop'u
+  - `initialValues` prop'unun kullanımı
+  - `onSubmit` prop'unun tanımlanması
 - Form alanları `Field`
   - `name` niteliği
-  - Elemanların başlangıç değeri
+  - Form elemanlarının başlangıç değerleri
 - Form gönderimi
-  - `onSubmit` içindeki `values` ve `actions` parametreleri
+  - `onSubmit` fonksiyonu içindeki `values` ve `actions` parametrelerinin kullanımı
 - Formik bileşenlerinin stilizasyonu
-- `as` prop'u ile alan türleri
+- `as` prop'u ile alan türlerinin değiştirilmesi
 - [`Yup`](https://github.com/jquense/yup) ile doğrulama
-  - Doğrulama şeması
+  - Doğrulama şemasının oluşturulması
   - Doğrulayıcı fonksiyonun alabileceği argümanlar
-  - `validationSchema` prop'u
+  - `validationSchema` prop'unun kullanımı
 - `ErrorMessage` bileşeni
-  - `component` prop'u
+  - `component` prop'u ile hata mesajı yönetimi
