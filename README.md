@@ -7,33 +7,33 @@
   - Bileşen geliştirme
 - [Geliştirici Araçları](https://react.dev/learn/react-developer-tools#browser-extension)
 - Uygulamanın DOM'da `main.jsx` dosyasında render edilmesi
-  - `react` ve `react-dom` paketleri
+  - `react` ve `react-dom` paketlerinin kullanımı
   - `createRoot` ve `render` yöntemleri
-  - `index.html` içindeki `div#root` elementi
+  - `index.html` içinde yer alan `div#root` elementi
 - Bileşenler
-  - `src/components` klasörü
+  - `src/components` klasörünün yapısı
   - Ana bileşen `App`
-  - Bileşenlerin varsayılan içe aktarımı ve dışa aktarımı
+  - Bileşenlerin varsayılan içe ve dışa aktarımı
 - JSX - UI tanımı
-  - Özellikler
-  - Ortak ebeveyn kuralı
-  - Fragmanlar
-  - JSX ifadeleri şemada ve niteliklerde
+  - Özellikler (props)
+  - Ortak ebeveyn kuralı(tek bir kapsayıcı öğe)
+  - Fragmanlar (Fragments)
+  - JSX ifadeleri: Şema ve niteliklerde kullanımı
 - Bileşen ayarları
   - `props` parametresi
-  - Props'ların destructuring'i
+  - Props'ların destructuring yöntemiyle kullanımı
 - Koşullu render
   - Gösterilmeyen değerler: `null`, `undefined`, `false`
-  - `&&` operatörü
-  - Üçlü operatör
+  - `&&` operatörünün kullanımı
+  - Üçlü operatör ile koşullu render
 - Eleman koleksiyonları
-  - `map` yöntemi
-  - `key` ile eleman anahtarları
+  - `map` yöntemi ile liste oluşturma
+  - `key` elemanların benzersiz anahtarları
   - Liste ve eleman bileşenleri
 - `props.children` özelliği
 - Uygulamanın Vercel'de dağıtımı
 
-## JSX ödeme kartları
+## JSX ödeme kartları örneği
 
 ```jsx
 <div>
