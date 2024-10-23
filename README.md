@@ -2,15 +2,15 @@
 
 ## Kullanıcı Güncellemesi
 
-- Redux Persist kullanarak token'in localStorage'da saklanmasını ekleyin
-- `refreshUser` işlemini ekleyin
-- `App` montajında `refreshUser` işlemini kullanın
-- `isRefreshing` durumunu seçici olarak ekleyin
-- `auth` diliminde `isRefreshing` durumunu ekleyin
-- `App` içinde `isRefreshing` durumunu kullanın
+- Redux Persist kullanarak token'in localStorage'da saklayın
+- Kullanıcı verilerini güncel tutmak için `refreshUser` işlemini ekleyin
+- `App` bileşeninin montajında `refreshUser` işlemini çağırarak kullanıcı verilerini güncelleyin
+- Kullanıcının verileri yenilenirken durumu izlemek için `isRefreshing` durumunu seçici (selector) olarak ekleyin
+- `auth` diliminde `isRefreshing` durumunu ekleyerek kullanıcı yenileme durumunu takip edin
+- `App` bileşeninde `isRefreshing` durumuna göre bileşenleri koşullu olarak gösterin
 
-## Yönlendirmeler
+## Yönlendirmeler (Redirects)
 
-- Giriş süreci örneği üzerinden yönlendirme kavramını ele alın
+- Giriş işlemi üzerinden yönlendirme (redirect) mantığını ele alın
 - `PrivateRoute` ve `RestrictedRoute` bileşenlerini oluşturun
-- Rotaları sarmak için bileşenleri kullanın
+- Rotaları güvenli hale getirmek için bu bileşenleri kullanarak yönlendirmeleri gerçekleştirin
