@@ -2,27 +2,27 @@
 
 Backend Temel URL'si: https://task-manager-api.goit.global/
 
-- Sayfa ve bileşenlerin yapısını incelemek
-- `src/redux/auth/slice` içindeki authSlice durumunu incelemek
-- `src/redux/auth/selectors` içindeki seçicileri incelemek
-- `src/redux/auth/operations` içindeki işlem şablonlarını incelemek
-- `isLoggedIn` durumuna göre JSX görüntülemek için `AppBar` içindeki bileşenleri ayarlamak
+- Sayfa ve bileşenlerin yapısının incelenmesi
+- `src/redux/auth/slice` dosyasındaki authSlice durumunun analizi
+- `src/redux/auth/selectors` içindeki seçicilerin incelenmesi
+- `src/redux/auth/operations` klasöründeki işlem şablonlarının gözden geçirilmesi
+- `isLoggedIn` durumuna göre JSX görüntüsünü ayarlamak için `AppBar` bileşenini yapılandırmak 
 
-## Kayıt
+## Kayıt (Register)
 
 - `register` işlemini yazmak
-- `RegisterForm` bileşeninde kullanmak
-- Sonucu `authSlice` içinde işlemek
-- Access token kavramını yüzeysel olarak incelemek, daha sonra detaylandırılacak
+- Bu işlemi `RegisterForm` bileşeninde kullanmak
+- İşlem sonucunu `authSlice` içinde işlemek
+- Access token kavramına yüzeysel bir giriş yapmak (detaylar daha sonra işlenecek)
 
-## Giriş
+## Giriş (Login)
 
 - `logIn` işlemini yazmak
-- `LoginForm` bileşeninde kullanmak
-- Sonucu `authSlice` içinde işlemek
-- Cevaptaki token'a dikkat etmek
+- Bu işlemi `LoginForm` bileşeninde kullanmak
+- İşlem sonucunu `authSlice` içinde işlemek
+- İstek cevabındaki token'ın önemini vurgulamak
 
-## JWT ve HTTP İstek Başlıkları
+## JWT ve HTTP İstek Başlıkları (Headers)
 
 - Kullanıcı özel verileri kavramını incelemek
 - Token ile backend'in kullanıcıları nasıl ayırt ettiğini gözden geçirmek
@@ -30,9 +30,9 @@ Backend Temel URL'si: https://task-manager-api.goit.global/
 - Giriş veya kayıt sonrası her isteğe token eklemek
 - `setAuthHeader` yardımcı fonksiyonunu oluşturmak
 
-## Çıkış
+## Çıkış (Logout)
 
 - `logOut` işlemini yazmak
-- `UserMenu` bileşeninde kullanmak
+- Bu işlemi `UserMenu` bileşeninde kullanmak
 - Çıkış sonucunu `authSlice` içinde işleyerek çıkışta verileri geçersiz kılmak
 - Çıkış sonucunu `tasksSlice` içinde işleyerek çıkışta verileri geçersiz kılmak
