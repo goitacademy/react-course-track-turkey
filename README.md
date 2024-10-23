@@ -1,35 +1,35 @@
-# Ders 11 - Redux Kütüphanesi
+# Ders 11 - Redux Kütüphanesi (State Management)
 
 ## Durum Yönetimi
 
-- Küresel durum ve veri akışı
+- Küresel durum (global state) ve veri akışı
 - Kütüphanelerin kurulumu
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [React Redux](https://react-redux.js.org/)
 
-## Store
+## Store (Durum Deposu)
 
-- `configureStore` fonksiyonu
-- Redux Devtools'ın incelenmesi
-- `useSelector` kancası ile store'a abone olma
-- Seçici fonksiyonlar
+- `configureStore` fonksiyonunun kullanımı
+- Redux DevTools ile durumu takip etme
+- `useSelector`  hook'u ile store'a abone olma ve veri çekme
+- Seçici fonksiyonların (selector functions) kullanımı
 
 ## Eylemler (actions)
 
-- Eylem fabrikaları
-- `createAction` fonksiyonu
-- `useDispatch` ile eylem gönderme
+- Eylem yaratıcıları (action creators)
+- `createAction` fonksiyonu ile eylem oluşturma
+- `useDispatch` hook'u ile eylem gönderme
 
 ## Reducer'lar (reducers)
 
-- Reducer imzası
-- Kök reducer
-- Neden varsayılan olarak `return state`
-- Eylemlerin işlenmesi
+- Reducer fonksiyonlarının yapısı
+- Kök reducer (root reducer) oluşturma
+- Neden varsayılan olarak `return state` kullanılır?
+- Eylemlerin işlenmesi(handling actions)
 
-## Pratik
+## Pratik (Uygulamalı Çalışma)
 
-- Tüm Redux ayarlarını `src/redux` klasöründe yapın
+- Redux ayarlarını `src/redux` klasöründe yapılandırın
 - `store.js` dosyasında bir store oluşturun
 
 ![UI görevi](https://raw.githubusercontent.com/goitacademy/react-course-track/11-redux/assets/task.gif)
