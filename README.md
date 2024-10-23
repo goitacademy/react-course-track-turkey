@@ -1,11 +1,11 @@
 # Ders 14 - Seçicilerin Memosu
 
-- Seçici fonksiyonlar
-  - Dilim dosyasında saklama
-  - İsimlendirme `select*`
-- Basit seçiciler (durumun bir kısmını döndürür)
-- Bileşen seçiciler (hesaplamaların sonucunu döndürür)
-  - `TaskList` içindeki görevler listesi
+- Seçici fonksiyonlar (Selectors)
+  - eçici fonksiyonları dilim dosyalarında saklama
+  - İsimlendirme işlemi : `select*`
+- Basit Seçiciler : durumun (state) belirli bir kısmını döndürmek için kullanılır.
+- Bileşen Seçiciler-Component Selectors : hesaplamaların sonucunu döndürür
+  - `TaskList` bileşeninde görevlerin listesini göstermek
   - `selectVisibleTasks` seçicisini oluşturma
 - Memoizasyon nedir (hesaplamaların önbelleğe alınması)
 - Redux Toolkit'te memoizasyon nasıl çalışır
